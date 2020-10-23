@@ -67,7 +67,7 @@
               </filters>
               <transformers>
                 <transformer>
-                  <mainClass>com.Kafka2Spark.StockReal2ES2ORA</mainClass>
+                  <mainClass>com.realtime.StockReal2ES2ORA</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -110,7 +110,7 @@
   </dependencyManagement>
   <properties>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <elasticsearch.version>7.0.1</elasticsearch.version>
+    <elasticsearch.version>7.9.0</elasticsearch.version>
     <scala.version>2.11.8</scala.version>
     <hadoop.version>2.7.5</hadoop.version>
     <log4j2-version>2.13.3</log4j2-version>

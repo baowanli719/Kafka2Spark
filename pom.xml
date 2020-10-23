@@ -18,7 +18,7 @@
     <scala.version>2.11.8</scala.version>
     <hadoop.version>2.7.5</hadoop.version>
     <spark.version>2.3.0</spark.version>
-    <elasticsearch.version>7.0.1</elasticsearch.version>
+    <elasticsearch.version>7.9.0</elasticsearch.version>
   </properties>
 
   <dependencyManagement>
@@ -274,7 +274,7 @@
               </filters>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.Kafka2Spark.StockReal2ES2ORA</mainClass>
+                  <mainClass>com.realtime.StockReal2ES2ORA</mainClass>
                 </transformer>
               </transformers>
             </configuration>

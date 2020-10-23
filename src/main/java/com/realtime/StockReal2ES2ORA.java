@@ -33,8 +33,8 @@ public class StockReal2ES2ORA {
 
     public static void main(String[] args) throws InterruptedException {
 
-        System.setProperty("java.security.auth.login.config", ConfigurationManager.getProperty(Constants.SECURITY_AUTH_LOGIN_CONFIG));
-        System.setProperty("java.security.krb5.conf", ConfigurationManager.getProperty(Constants.SECURITY_KRB5_CONFIG));
+        //System.setProperty("java.security.auth.login.config", ConfigurationManager.getProperty(Constants.SECURITY_AUTH_LOGIN_CONFIG));
+        //System.setProperty("java.security.krb5.conf", ConfigurationManager.getProperty(Constants.SECURITY_KRB5_CONFIG));
 
         String myMaster = ConfigurationManager.getProperty(Constants.SPARK_MASTER);
 
