@@ -56,7 +56,7 @@ public class StockReal2ES2ORA {
 
         //kerberos安全认证
         kafkaParams.put("security.protocol", "SASL_PLAINTEXT");
-        kafkaParams.put("sasl.mechanism", "GSSAPI");
+        //kafkaParams.put("sasl.mechanism", "GSSAPI");
         kafkaParams.put("sasl.kerberos.service.name", "kafka");
 
 
